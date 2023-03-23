@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooths;
+}
+
+.wall{
+    border: 2px solid white;
+}
+
+body{
+    background-color: black;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hero{
+    background-image: url('/src/components/assets/Butwal.jpg');
+}
+
+.follow{
+    cursor: pointer;
+}
+
+.follow:hover{
+    color: #3aafc9;
+}
+
+/* .profile{
+    width: 100%;
+    height: auto;
+} */
